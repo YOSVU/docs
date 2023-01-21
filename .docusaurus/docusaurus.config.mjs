@@ -16,7 +16,8 @@ export default {
   "i18n": {
     "defaultLocale": "zh-Hans",
     "locales": [
-      "zh-Hans"
+        "zh-Hans",
+        "en"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -81,14 +82,18 @@ export default {
         {
           "title": "Community",
           "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/YOSVU"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discord.gg/F52fgfb22S"
-            }
+              {
+                  "label": "GitHub",
+                  "href": "https://github.com/YOSVU"
+              },
+              {
+                  "label": "Discord",
+                  "href": "https://discord.gg/F52fgfb22S"
+              },
+              {
+                  "label": "QQ Group",
+                  "href": "https://jq.qq.com/?_wv=1027&k=K6CSU5qU"
+              }
           ]
         },
         {

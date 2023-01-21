@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -99,6 +99,10 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/F52fgfb22S',
+              },
+              {
+                label: 'QQ Group',
+                href: 'https://jq.qq.com/?_wv=1027&k=K6CSU5qU',
               },
             ],
           },
