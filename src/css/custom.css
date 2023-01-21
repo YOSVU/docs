@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #86d1c7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.orange-text {
+  background-color: rgba(25, 112, 85, 0.44);
+  font-style: italic;
+  font-size: large;
+  color: #ec6d72;
+}

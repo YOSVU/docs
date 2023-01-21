@@ -63,18 +63,26 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/YOSVU',
-            label: 'GitHub',
-            position: 'right',
-          },
+            {
+                type: 'doc',
+                docId: 'intro',
+                position: 'left',
+                label: 'Tutorial',
+            },
+            {to: '/blog', label: 'Blog', position: 'left'},
+            {
+                type: 'localeDropdown',
+                position: 'right',
+            },
+            {
+                type: 'docsVersionDropdown',
+                position: 'right',
+            },
+            {
+                href: 'https://github.com/YOSVU',
+                label: 'GitHub',
+                position: 'right',
+            },
         ],
       },
       footer: {
@@ -110,22 +118,25 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                  label: 'Blog',
+                  to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/YOSVU',
-              },
+                {
+                    label: 'GitHub',
+                    href: 'https://github.com/YOSVU',
+                },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Youth Open Source Virtual University.`,
+          copyright: `Copyright © ${new Date().getFullYear()} Youth Open Source Virtual University`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+        prism: {
+            theme: lightCodeTheme,
+            darkTheme: darkCodeTheme,
+        },
+        markdown: {
+            mermaid: true,
+        },
     }),
 };
 

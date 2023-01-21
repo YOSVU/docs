@@ -12,19 +12,20 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-          <h1 className="hero__title">青年开源虚拟大学</h1>
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-            <div className={styles.buttons}>
+          <h1 className="hero__title ">青年开源虚拟大学</h1>
+          <h1 className="">{siteConfig.title}</h1>
+          <p className="hero__subtitle orange-text">助力全球,开源世界.<br/>{siteConfig.tagline}</p>
+          <p className="hero__subtitle "></p>
+          <div className={styles.buttons}>
               <Link
-                className="button button--secondary button--lg"
-                to="/docs/intro">注册
+                  className="button button--secondary button--lg"
+                  to="/docs/intro">注册
               </Link>
-               <Link
-                      className="button button--lg"
-                      to="/docs/intro">文档
-               </Link>
-            </div>
+              <Link
+                  className="button button--lg"
+                  to="/docs/intro">文档
+              </Link>
+          </div>
       </div>
     </header>
   );

@@ -50,20 +50,32 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
+            "docId": "intro",
+            "position": "left",
+            "label": "Tutorial"
         },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/YOSVU",
-          "label": "GitHub",
-          "position": "right"
-        }
+          {
+              "to": "/blog",
+              "label": "Blog",
+              "position": "left"
+          },
+          {
+              "type": "localeDropdown",
+              "position": "right",
+              "dropdownItemsBefore": [],
+              "dropdownItemsAfter": []
+          },
+          {
+              "type": "docsVersionDropdown",
+              "position": "right",
+              "dropdownItemsBefore": [],
+              "dropdownItemsAfter": []
+          },
+          {
+              "href": "https://github.com/YOSVU",
+              "label": "GitHub",
+              "position": "right"
+          }
       ],
       "hideOnScroll": false
     },
@@ -306,26 +318,29 @@ export default {
       },
       "additionalLanguages": [],
       "magicComments": [
-        {
-          "className": "theme-code-block-highlighted-line",
-          "line": "highlight-next-line",
-          "block": {
-            "start": "highlight-start",
-            "end": "highlight-end"
+          {
+              "className": "theme-code-block-highlighted-line",
+              "line": "highlight-next-line",
+              "block": {
+                  "start": "highlight-start",
+                  "end": "highlight-end"
+              }
           }
-        }
       ]
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
+      "markdown": {
+          "mermaid": true
+      },
+      "colorMode": {
+          "defaultMode": "light",
+          "disableSwitch": false,
+          "respectPrefersColorScheme": false
+      },
+      "docs": {
+          "versionPersistence": "localStorage",
+          "sidebar": {
+              "hideable": false,
+              "autoCollapseCategories": false
       }
     },
     "metadata": [],
