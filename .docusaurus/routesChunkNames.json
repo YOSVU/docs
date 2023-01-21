@@ -191,7 +191,7 @@
     "__context": {
       "plugin": "plugin---markdown-pagebbc-9e7"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---my-react-page-5-e-9-dcc"
   },
   "/docs-eb3": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
@@ -249,6 +249,6 @@
     "__context": {
       "plugin": "plugin---markdown-pagebbc-9e7"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---my-react-page-5-e-9-dcc"
   }
 }

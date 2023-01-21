@@ -5,8 +5,8 @@
  */
 export default {
   "title": "Youth Open Source Virtual University",
-  "tagline": "YOSVU",
-  "url": "http://localhost:8080",
+  "tagline": "Powering the globe, opening the world.",
+  "url": "https://yosvu.netlify.app",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
