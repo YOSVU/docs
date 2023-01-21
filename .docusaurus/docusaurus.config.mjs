@@ -26,6 +26,14 @@ export default {
     [
       "classic",
       {
+        "sitemap": {
+          "changefreq": "daily",
+          "priority": 0.5,
+          "ignorePatterns": [
+            "/tags/**"
+          ],
+          "filename": "sitemap.xml"
+        },
         "docs": {
           "sidebarPath": "D:\\GitHub\\docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"

@@ -10,6 +10,7 @@ const config = {
   tagline: 'Powering the globe, opening the world.',
   url: 'https://yosvu.netlify.app',
   baseUrl: '/',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.ico',
@@ -31,17 +32,24 @@ const config = {
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
+
+        ({
+            sitemap: {
+                changefreq: 'daily',
+                priority: 0.5,
+                ignorePatterns: ['/tags/**'],
+                filename: 'sitemap.xml',
+            },
+            docs: {
+                sidebarPath: require.resolve('./sidebars.js'),
+                // Please change this to your repo.
+                // Remove this to remove the "edit this page" links.
+                editUrl:
+                    'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            },
+            blog: {
+                showReadingTime: true,
+                // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',

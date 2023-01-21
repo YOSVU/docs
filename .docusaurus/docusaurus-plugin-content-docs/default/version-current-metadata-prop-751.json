@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "intro",
         "href": "/docs/intro",
         "docId": "intro"
       },
@@ -86,8 +86,8 @@
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "intro",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {
