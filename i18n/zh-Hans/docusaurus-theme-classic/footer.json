@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/YOSVU"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/F52fgfb22S"
+  },
+  "link.item.label.QQ Group": {
+    "message": "QQ Group",
+    "description": "The label of footer link with label=QQ Group linking to https://jq.qq.com/?_wv=1027&k=K6CSU5qU"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 Youth Open Source Virtual University.",
+    "description": "The footer copyright"
+  }
+}
