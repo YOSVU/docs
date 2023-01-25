@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-          copyright: `Copyright © ${new Date().getFullYear()} Youth Open Source Virtual University`,
+          copyright: `Copyright © ${new Date().getFullYear()} YOSVU. All right saved.`,
       },
         prism: {
             theme: lightCodeTheme,
