@@ -6,5 +6,5 @@ tags: [hello]
 ---
 
 链接在这里
-https://yosvu.eu.org/testserver/
+https://yosvu.eu.org/Testserver/
 
