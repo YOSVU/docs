@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-      title: '开放包容',
+      title: '开放开源',
       Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
       description: (
           <>
-              Docusaurus was designed from the ground up to be easily installed and
-              used to get your website up and running quickly.
+              开放是一种态度,开源是一种信仰.每个开源人都有自己心中的追求.
           </>
       ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-                ahead and move your docs into the <code>docs</code> directory.
+                只要精神不落后,人生时刻是青年.学海无涯,唯有终生学习,方得一生幸福.
             </>
         ),
     },
@@ -28,8 +26,7 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
         description: (
             <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                团结就是力量,团结就是希望.合作,是每一个开源项目成功的基石.
             </>
         ),
     },
