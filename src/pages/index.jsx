@@ -18,7 +18,7 @@ function HomepageHeader() {
   <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
+    function gtag(){window.dataLayer.push(arguments)}
     gtag('js', new Date());
 
     gtag('config', 'GA_TRACKING_ID');
@@ -28,7 +28,7 @@ function HomepageHeader() {
 
   const {siteConfig} = useDocusaurusContext();
   return (
-    <MySEO>
+   
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
           <h1 className="hero__title ">青年开源虚拟大学</h1>
@@ -46,8 +46,9 @@ function HomepageHeader() {
               </Link>
           </div>
       </div>
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3dd4ad2697584e5184d0ae64d598b6ff"}'></script>
     </header>
-    </MySEO>
+ 
   );
 }
 
