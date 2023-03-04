@@ -8,7 +8,7 @@
 
 
 
-临时主页: <https://yosvu.huahuo-cn.tk/>
+临时主页: <https://yosvu.eu.org/>
 
 全部文档&备用主页
 
