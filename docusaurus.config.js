@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Youth Open Source Virtual University',
   tagline: 'Powering the globe, opening the world.',
-  url: 'https://yosvu.netlify.app',
+  url: 'https://yosvu.eu.org',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
@@ -37,6 +37,13 @@ const config = {
             gtag: {
               trackingID: 'G-999X9XX9XX',
               anonymizeIP: true,
+            },
+            googleAnalytics: {
+              trackingID: 'UA-141789564-1',
+              anonymizeIP: true,
+            },
+            googleTagManager: {
+              containerId: 'GTM-PD9RSMX',
             },
             sitemap: {
                 changefreq: 'always',
