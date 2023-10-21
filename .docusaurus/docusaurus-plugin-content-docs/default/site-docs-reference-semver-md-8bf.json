@@ -1,0 +1,20 @@
+{
+  "unversionedId": "reference/semver",
+  "id": "reference/semver",
+  "title": "Semantic Versioning 2.0.0",
+  "description": "Summary",
+  "source": "@site/docs/reference/semver.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/semver",
+  "permalink": "/docs/reference/semver",
+  "draft": false,
+  "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/reference/semver.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "jam",
+    "permalink": "/docs/achieved/jam"
+  }
+}

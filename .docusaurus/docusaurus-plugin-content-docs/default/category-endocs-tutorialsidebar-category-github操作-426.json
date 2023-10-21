@@ -1,0 +1,16 @@
+{
+  "title": "GitHub操作",
+  "description": "GitHub操作",
+  "slug": "/category/github操作",
+  "permalink": "/en/docs/category/github操作",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/en/docs/tutorial-basics/congratulations"
+    },
+    "next": {
+      "title": "Release 发布规范",
+      "permalink": "/en/docs/Github/realease"
+    }
+  }
+}

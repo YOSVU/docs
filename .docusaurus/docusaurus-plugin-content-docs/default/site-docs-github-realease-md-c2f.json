@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Github/realease",
+  "id": "Github/realease",
+  "title": "Release 发布规范",
+  "description": "1. 原则性要求",
+  "source": "@site/docs/Github/realease.md",
+  "sourceDirName": "Github",
+  "slug": "/Github/realease",
+  "permalink": "/docs/Github/realease",
+  "draft": false,
+  "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/Github/realease.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GitHub操作",
+    "permalink": "/docs/category/github操作"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

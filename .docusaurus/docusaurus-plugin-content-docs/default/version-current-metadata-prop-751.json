@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "intro",
+        "label": "文档中心",
         "href": "/docs/intro",
         "docId": "intro"
       },
@@ -62,6 +62,21 @@
       },
       {
         "type": "category",
+        "label": "GitHub操作",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Release 发布规范",
+            "href": "/docs/Github/realease",
+            "docId": "Github/realease"
+          }
+        ],
+        "href": "/docs/category/github操作"
+      },
+      {
+        "type": "category",
         "label": "Tutorial - Extras",
         "collapsible": true,
         "collapsed": true,
@@ -80,14 +95,72 @@
           }
         ],
         "href": "/docs/category/tutorial---extras"
+      },
+      {
+        "type": "category",
+        "label": "achieved",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "一点要说的东西1",
+            "href": "/docs/achieved/something-to-say1",
+            "docId": "achieved/2023-03-04-something-to-say"
+          },
+          {
+            "type": "link",
+            "label": "jam",
+            "href": "/docs/achieved/jam",
+            "docId": "achieved/jam"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "reference",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Semantic Versioning 2.0.0",
+            "href": "/docs/reference/semver",
+            "docId": "reference/semver"
+          }
+        ]
       }
     ]
   },
   "docs": {
+    "achieved/2023-03-04-something-to-say": {
+      "id": "achieved/2023-03-04-something-to-say",
+      "title": "一点要说的东西1",
+      "description": "2023年3月5日 存档",
+      "sidebar": "tutorialSidebar"
+    },
+    "achieved/jam": {
+      "id": "achieved/jam",
+      "title": "jam",
+      "description": "Ebitengine 游戏开发者大赛是由 Ebitengine 社区组织的为期两周的活动，从2023年6月15日开始，任何人都可以通过构建基于秘密主题的游戏来展示您的 Ebitengine 游戏。",
+      "sidebar": "tutorialSidebar"
+    },
+    "Github/realease": {
+      "id": "Github/realease",
+      "title": "Release 发布规范",
+      "description": "1. 原则性要求",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "intro",
-      "description": "",
+      "title": "文档中心",
+      "description": "我走得很慢，但我从不后退。",
+      "sidebar": "tutorialSidebar"
+    },
+    "reference/semver": {
+      "id": "reference/semver",
+      "title": "Semantic Versioning 2.0.0",
+      "description": "Summary",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

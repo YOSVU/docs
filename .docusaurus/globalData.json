@@ -1,4 +1,19 @@
 {
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-999X9XX9XX"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-PD9RSMX",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",
@@ -11,8 +26,28 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "achieved/2023-03-04-something-to-say",
+              "path": "/docs/achieved/something-to-say1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "achieved/jam",
+              "path": "/docs/achieved/jam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Github/realease",
+              "path": "/docs/Github/realease",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/semver",
+              "path": "/docs/reference/semver",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -58,6 +93,11 @@
             {
               "id": "/category/tutorial---basics",
               "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/github操作",
+              "path": "/docs/category/github操作",
               "sidebar": "tutorialSidebar"
             },
             {

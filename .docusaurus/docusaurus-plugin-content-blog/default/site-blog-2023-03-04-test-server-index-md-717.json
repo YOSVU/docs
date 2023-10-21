@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/test",
+  "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2023-03-04-test-server/index.md",
+  "source": "@site/blog/2023-03-04-test-server/index.md",
+  "title": "Test Server",
+  "description": "链接在这里",
+  "date": "2023-03-04T00:00:00.000Z",
+  "formattedDate": "2023年3月4日",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    }
+  ],
+  "readingTime": 0.03,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Maicarons",
+      "title": "A YOSVU Student",
+      "url": "https://github.com/Maicarons2022",
+      "imageURL": "https://github.com/Maicarons2022.png",
+      "key": "Maica"
+    }
+  ],
+  "frontMatter": {
+    "slug": "test",
+    "title": "Test Server",
+    "authors": [
+      "Maica"
+    ],
+    "tags": [
+      "hello"
+    ]
+  },
+  "prevItem": {
+    "title": "一点要说的东西1",
+    "permalink": "/blog/something-to-say1"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

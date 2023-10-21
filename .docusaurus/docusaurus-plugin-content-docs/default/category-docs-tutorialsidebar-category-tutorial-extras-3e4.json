@@ -4,8 +4,8 @@
   "permalink": "/docs/category/tutorial---extras",
   "navigation": {
     "previous": {
-      "title": "Congratulations!",
-      "permalink": "/docs/tutorial-basics/congratulations"
+      "title": "Release 发布规范",
+      "permalink": "/docs/Github/realease"
     },
     "next": {
       "title": "Manage Docs Versions",

@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/something-to-say1",
+  "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2023-03-04-something-to-say.md",
+  "source": "@site/blog/2023-03-04-something-to-say.md",
+  "title": "一点要说的东西1",
+  "description": "天很蓝，阴云终要散。海不宽，此岸连彼岸。梦很浅，万物皆自然。",
+  "date": "2023-03-04T00:00:00.000Z",
+  "formattedDate": "2023年3月4日",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    }
+  ],
+  "readingTime": 9.01,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Maicarons",
+      "title": "A YOSVU Student",
+      "url": "https://github.com/Maicarons2022",
+      "imageURL": "https://github.com/Maicarons2022.png",
+      "key": "Maica"
+    }
+  ],
+  "frontMatter": {
+    "slug": "something-to-say1",
+    "title": "一点要说的东西1",
+    "authors": "Maica",
+    "tags": [
+      "hello"
+    ]
+  },
+  "nextItem": {
+    "title": "Test Server",
+    "permalink": "/blog/test"
+  }
+}

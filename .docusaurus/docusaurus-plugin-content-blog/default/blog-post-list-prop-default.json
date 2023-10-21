@@ -2,6 +2,14 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "一点要说的东西1",
+      "permalink": "/blog/something-to-say1"
+    },
+    {
+      "title": "Test Server",
+      "permalink": "/blog/test"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome"
     },
@@ -12,10 +20,6 @@
     {
       "title": "Long Blog Post",
       "permalink": "/blog/long-blog-post"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
     }
   ]
 }

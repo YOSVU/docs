@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yosvu.eu.org/en/blog</id>
+    <title>Youth Open Source Virtual University Blog</title>
+    <updated>2023-03-04T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yosvu.eu.org/en/blog"/>
+    <subtitle>Youth Open Source Virtual University Blog</subtitle>
+    <icon>https://yosvu.eu.org/en/img/logo.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[一点要说的东西1]]></title>
+        <id>https://yosvu.eu.org/en/blog/something-to-say1</id>
+        <link href="https://yosvu.eu.org/en/blog/something-to-say1"/>
+        <updated>2023-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[天很蓝，阴云终要散。海不宽，此岸连彼岸。梦很浅，万物皆自然。]]></summary>
+        <content type="html"><![CDATA[<blockquote><p>天很蓝，阴云终要散。海不宽，此岸连彼岸。梦很浅，万物皆自然。</p></blockquote><p>大家好，又到了新春时节。</p><p>这个春天，我们把三年的疫情终于抛到了脑后，
+我们更加珍惜现在的时光，珍惜每一个平静的晨午和夕阳。</p><p>从1月19日项目立项以来，到元宵后我到北京集中学习，这段时间有很多朋友陪伴，每个人都为这个项目打下理论基础和科学构想。<br>
+<!-- -->每个人的工作都无可替代，每个人创造的价值都很重要。  </p><p>这段时间，我对青开大项目的设计并未停止。<br>
+<!-- -->青开大项目最初也并非我个人的头脑一热，而是多年的积淀，明确的目标和大量的调研的结晶。没有一个项目是一日建成的，没有一个开源团队是一蹴而就组建的。正如2023年新年贺词中所言，"中国这么大，不同人会有不同诉求，对同一件事也会有不同看法，这很正常，要通过沟通协商凝聚共识。"一个良好的团队，需要经得起时间的检验，需要经历合作中的磨合。我们的团队要想有默契，就必须团结，必须心往一处想，劲往一处使。当然，在休眠期间，只希望大家不要忘记这个项目，我们6月重启。  </p><p>下面简述一下6月布局的设想，仅为一己之言。</p><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="1-团队设置">1. 团队设置<a href="#1-团队设置" class="hash-link" aria-label="Direct link to 1. 团队设置" title="Direct link to 1. 团队设置">​</a></h2><ol><li>青开大最高的机构-青开大委员会，负责青开大项目的决策。由开发团队代表，运营团队代表，用户(学生)代表组成。  </li><li>开发团队。开发团队由前端团队和后端团队组成，分别有2位负责人负责(共四人)。</li><li>运营团队。运营团队下设社区运营团队，课程运营团队，教室运营团队，开源项目运营团队，内容管理团队，分别1位负责人负责(共四人)。分管的具体内容见下文。</li><li>学生会。类似用户代表反馈互动机制，具体职能待定。</li></ol><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="2-项目设计">2. 项目设计<a href="#2-项目设计" class="hash-link" aria-label="Direct link to 2. 项目设计" title="Direct link to 2. 项目设计">​</a></h2><ol><li><h4 class="anchor anchorWithStickyNavbar_iAQ0" id="社区">社区<a href="#社区" class="hash-link" aria-label="Direct link to 社区" title="Direct link to 社区">​</a></h4><p>社区是青开大项目的核心，是所有项目内容的集散地。社区要提供学生交流/合作/互相学习的环境。<br>
+<!-- -->我们可以通过设置不同专栏(类似不同学科)，方便学生交流，课程发布，项目推送等功能。可以类比带专栏的蓝鸟。<br>
+<!-- -->由社区运营团队负责。</p></li><li><h4 class="anchor anchorWithStickyNavbar_iAQ0" id="课程">课程<a href="#课程" class="hash-link" aria-label="Direct link to 课程" title="Direct link to 课程">​</a></h4><p>课程要与教室绑定，每个课程对应一个公开教室。课程可以通过团队创作，邀请up主等方式提供内容。目前视频内容直接接入b站，既避免托管视频的巨额消费，也方便我们审核。视频课程目前我已经邀请了几位教程up，将会提供第一批教程。<br>
+<!-- -->教程分为大课和小课，学习方式分为主修，辅修，旁听。<br>
+<!-- -->选择主修可以进入本课程的公开教室，并要求在一段时间内完成相应测验和考试，教师或管理团队会跟踪学生的学习过程，相应的，会获得最多的学分。<br>
+<!-- -->辅修同样可以进入教室，但考试成绩及格即可，要求较松，获得的学分也较少。<br>
+<!-- -->旁听不会有任何限制，当然也没有学分。<br>
+<!-- -->由课程运营团队负责。</p></li><li><h4 class="anchor anchorWithStickyNavbar_iAQ0" id="教室">教室<a href="#教室" class="hash-link" aria-label="Direct link to 教室" title="Direct link to 教室">​</a></h4><p>教室分为公开教室和高级教室。高级教室是目前我唯一能想到的较为容易实现商业化运作的功能，具体构想暂时保密。公开教室与课程绑定，学生可以在教室中相互讨论，或与教师讨论，分享学习成果，教师能够及时答疑，保证教学质量。<br>
+<!-- -->由教室运营团队负责。</p></li><li><h4 class="anchor anchorWithStickyNavbar_iAQ0" id="开源">开源<a href="#开源" class="hash-link" aria-label="Direct link to 开源" title="Direct link to 开源">​</a></h4><p>开源分为开源团队和开源项目功能。开源团队即青开大宗旨中"合作"的体现。通过学习课程或社区交流，引导学生组建团队，并通过开源项目功能提供内容展示，推广宣传等功能，为新生团队铺平道路。界面功能可以参考npm，但绝不是仅仅做个展示界面，还有很多绝对独创的服务。<br>
+<!-- -->由开源项目运营团队负责。</p></li></ol><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="3-一些原则">3. 一些原则<a href="#3-一些原则" class="hash-link" aria-label="Direct link to 3. 一些原则" title="Direct link to 3. 一些原则">​</a></h2><ol><li><p>无性别差异。我们倡导开源界的性别平等。青开大项目不会收集任何关于性别，性取向等内容，同时，在社区中也不得讨论或揭露学生此类内容。</p></li><li><p>无年龄差异。青开大项目不会收集任何关于年龄内容。我们认为，只要精神不落后，人生时刻是青年。任何年龄都有公平使用网络，公平创作项目，公平参与开源，公平学习和分享知识的权利。同时，在社区中也不得讨论或揭露学生此类内容。</p></li><li><p>中立和正确原则。</p></li><li><p>用户隐私合法服务原则。依据《中华人民共和国网络安全法》《信息安全等级保护管理办法》《公安机关互联网安全监督检查规定》等有关法律规定，我们的服务目前无法达到储存和处理中华人民共和国公民的个人信息的信息安全等级。因此我们不会收集任何法律规定内的个人隐私信息。</p></li><li><p>责任制原则。青开大项目在各组织内实行责任制。</p></li></ol><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="4-关于委员会">4. 关于委员会<a href="#4-关于委员会" class="hash-link" aria-label="Direct link to 4. 关于委员会" title="Direct link to 4. 关于委员会">​</a></h2><p>青开大委员会是青开大的决策机构。由一位负责人负责。委员会负责审议并表决相关议题，任免各团队负责人，组织召开大会，决定项目的运行等职能。</p><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="5-关于商业化">5. 关于商业化<a href="#5-关于商业化" class="hash-link" aria-label="Direct link to 5. 关于商业化" title="Direct link to 5. 关于商业化">​</a></h2><p>下一次something-to-say2再聊。</p><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="6-关于内容管理团队">6. 关于内容管理团队<a href="#6-关于内容管理团队" class="hash-link" aria-label="Direct link to 6. 关于内容管理团队" title="Direct link to 6. 关于内容管理团队">​</a></h2><p>内容管理团队负责对外宣传，社交平台官方账号运营，优质内容筛选，原创内容创作，是青开大内容输出的负责部门。</p><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="7-关于使用技术">7. 关于使用技术<a href="#7-关于使用技术" class="hash-link" aria-label="Direct link to 7. 关于使用技术" title="Direct link to 7. 关于使用技术">​</a></h2><p>前端水合负责，我就不插手了。<br>
+<!-- -->后端的话，我还是倾向go-zero，然后做前后端的完全分离。</p><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="8-关于服务器">8. 关于服务器<a href="#8-关于服务器" class="hash-link" aria-label="Direct link to 8. 关于服务器" title="Direct link to 8. 关于服务器">​</a></h2><p>下一次something-to-say2再聊。</p><h2 class="anchor anchorWithStickyNavbar_iAQ0" id="结语">结语<a href="#结语" class="hash-link" aria-label="Direct link to 结语" title="Direct link to 结语">​</a></h2><p>首先这些构想是完全没有经过实践的。因此在6月重启后可能会大改，如果有过分的地方也不要当真，请尽情提出意见和建议。
+我现在在北京集中学习，平时可以使用网络，但不能上社交平台，所以没法和各位在QQ聊，但是大家可以通过我的邮箱(maicarons#outlook.com)和我交流。</p><p>这里还要道个歉，因为之前请的作曲老师莫名联系不上了，所以自己临时写了一个，借用了欢乐颂的谱(:</p><p>最后，祝愿大家，万事如意，不忘初心!</p>]]></content>
+        <author>
+            <name>Maicarons</name>
+            <uri>https://github.com/Maicarons2022</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Test Server]]></title>
+        <id>https://yosvu.eu.org/en/blog/test</id>
+        <link href="https://yosvu.eu.org/en/blog/test"/>
+        <updated>2023-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[链接在这里]]></summary>
+        <content type="html"><![CDATA[<p>链接在这里
+<a href="https://yosvu.eu.org/Testserver/" target="_blank" rel="noopener noreferrer">https://yosvu.eu.org/Testserver/</a></p>]]></content>
+        <author>
+            <name>Maicarons</name>
+            <uri>https://github.com/Maicarons2022</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://yosvu.eu.org/en/blog/welcome</id>
+        <link href="https://yosvu.eu.org/en/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/en/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_SN3T"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="facebook" term="facebook"/>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <id>https://yosvu.eu.org/en/blog/mdx-blog-post</id>
+        <link href="https://yosvu.eu.org/en/blog/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_dTQp"><div class="admonitionHeading_PlgZ"><span class="admonitionIcon_zsVz"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_SIyB"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_IW09 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_Wktp"><pre tabindex="0" class="prism-code language-js codeBlock_H6ch thin-scrollbar"><code class="codeBlockLines_j5Bm"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup_MKfy"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_t4q_" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_N8gI"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_InYZ"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long Blog Post]]></title>
+        <id>https://yosvu.eu.org/en/blog/long-blog-post</id>
+        <link href="https://yosvu.eu.org/en/blog/long-blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
+        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Endilie Yacop Sucipto</name>
+            <uri>https://github.com/endiliey</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://yosvu.eu.org/en/blog/first-blog-post</id>
+        <link href="https://yosvu.eu.org/en/blog/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>

@@ -6,7 +6,7 @@
 export default {
   "title": "Youth Open Source Virtual University",
   "tagline": "Powering the globe, opening the world.",
-  "url": "https://yosvu.netlify.app",
+  "url": "https://yosvu.eu.org",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -26,8 +26,19 @@ export default {
     [
       "classic",
       {
+        "gtag": {
+          "trackingID": "G-999X9XX9XX",
+          "anonymizeIP": true
+        },
+        "googleAnalytics": {
+          "trackingID": "UA-141789564-1",
+          "anonymizeIP": true
+        },
+        "googleTagManager": {
+          "containerId": "GTM-PD9RSMX"
+        },
         "sitemap": {
-          "changefreq": "daily",
+          "changefreq": "always",
           "priority": 0.5,
           "ignorePatterns": [
             "/tags/**"
@@ -36,11 +47,11 @@ export default {
         },
         "docs": {
           "sidebarPath": "D:\\GitHub\\docs\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/YOSVU/docs/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/YOSVU/docs/tree/main/"
         },
         "theme": {
           "customCss": "D:\\GitHub\\docs\\src\\css\\custom.css"

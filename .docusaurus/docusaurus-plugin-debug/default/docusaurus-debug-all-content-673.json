@@ -11,8 +11,8 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/zh-Hans/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/YOSVU/docs/tree/main/docs",
+          "editUrlLocalized": "https://github.com/YOSVU/docs/tree/main/i18n/zh-Hans/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "D:\\GitHub\\docs\\sidebars.js",
@@ -20,16 +20,100 @@
           "contentPathLocalized": "D:\\GitHub\\docs\\i18n\\zh-Hans\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "unversionedId": "achieved/2023-03-04-something-to-say",
+              "id": "achieved/2023-03-04-something-to-say",
+              "title": "一点要说的东西1",
+              "description": "2023年3月5日 存档",
+              "source": "@site/docs/achieved/2023-03-04-something-to-say.md",
+              "sourceDirName": "achieved",
+              "slug": "/achieved/something-to-say1",
+              "permalink": "/docs/achieved/something-to-say1",
+              "draft": false,
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/achieved/2023-03-04-something-to-say.md",
+              "tags": [
+                {
+                  "label": "hello",
+                  "permalink": "/docs/tags/hello"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "something-to-say1",
+                "title": "一点要说的东西1",
+                "authors": "Maica",
+                "tags": [
+                  "hello"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
+              },
+              "next": {
+                "title": "jam",
+                "permalink": "/docs/achieved/jam"
+              }
+            },
+            {
+              "unversionedId": "achieved/jam",
+              "id": "achieved/jam",
+              "title": "jam",
+              "description": "Ebitengine 游戏开发者大赛是由 Ebitengine 社区组织的为期两周的活动，从2023年6月15日开始，任何人都可以通过构建基于秘密主题的游戏来展示您的 Ebitengine 游戏。",
+              "source": "@site/docs/achieved/jam.md",
+              "sourceDirName": "achieved",
+              "slug": "/achieved/jam",
+              "permalink": "/docs/achieved/jam",
+              "draft": false,
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/achieved/jam.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "一点要说的东西1",
+                "permalink": "/docs/achieved/something-to-say1"
+              },
+              "next": {
+                "title": "Semantic Versioning 2.0.0",
+                "permalink": "/docs/reference/semver"
+              }
+            },
+            {
+              "unversionedId": "Github/realease",
+              "id": "Github/realease",
+              "title": "Release 发布规范",
+              "description": "1. 原则性要求",
+              "source": "@site/docs/Github/realease.md",
+              "sourceDirName": "Github",
+              "slug": "/Github/realease",
+              "permalink": "/docs/Github/realease",
+              "draft": false,
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/Github/realease.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GitHub操作",
+                "permalink": "/docs/category/github操作"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "intro",
-              "description": "",
+              "title": "文档中心",
+              "description": "我走得很慢，但我从不后退。",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -43,6 +127,26 @@
               }
             },
             {
+              "unversionedId": "reference/semver",
+              "id": "reference/semver",
+              "title": "Semantic Versioning 2.0.0",
+              "description": "Summary",
+              "source": "@site/docs/reference/semver.md",
+              "sourceDirName": "reference",
+              "slug": "/reference/semver",
+              "permalink": "/docs/reference/semver",
+              "draft": false,
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/reference/semver.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "jam",
+                "permalink": "/docs/achieved/jam"
+              }
+            },
+            {
               "unversionedId": "tutorial-basics/congratulations",
               "id": "tutorial-basics/congratulations",
               "title": "Congratulations!",
@@ -52,7 +156,7 @@
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -65,8 +169,8 @@
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "GitHub操作",
+                "permalink": "/docs/category/github操作"
               }
             },
             {
@@ -79,7 +183,7 @@
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -106,7 +210,7 @@
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -133,7 +237,7 @@
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -160,7 +264,7 @@
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -187,7 +291,7 @@
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -214,7 +318,7 @@
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -241,7 +345,7 @@
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -252,6 +356,10 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "一点要说的东西1",
+                "permalink": "/docs/achieved/something-to-say1"
               }
             }
           ],
@@ -302,6 +410,24 @@
               },
               {
                 "type": "category",
+                "label": "GitHub操作",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Github/realease"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "GitHub操作",
+                  "slug": "/category/github操作",
+                  "permalink": "/docs/category/github操作"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Tutorial - Extras",
                 "collapsible": true,
                 "collapsed": true,
@@ -320,6 +446,34 @@
                   "slug": "/category/tutorial---extras",
                   "permalink": "/docs/category/tutorial---extras"
                 }
+              },
+              {
+                "type": "category",
+                "label": "achieved",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "achieved/2023-03-04-something-to-say"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "achieved/jam"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "reference",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "reference/semver"
+                  }
+                ]
               }
             ]
           }
@@ -332,10 +486,100 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "something-to-say1",
+          "metadata": {
+            "permalink": "/blog/something-to-say1",
+            "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2023-03-04-something-to-say.md",
+            "source": "@site/blog/2023-03-04-something-to-say.md",
+            "title": "一点要说的东西1",
+            "description": "天很蓝，阴云终要散。海不宽，此岸连彼岸。梦很浅，万物皆自然。",
+            "date": "2023-03-04T00:00:00.000Z",
+            "formattedDate": "2023年3月4日",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              }
+            ],
+            "readingTime": 9.01,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Maicarons",
+                "title": "A YOSVU Student",
+                "url": "https://github.com/Maicarons2022",
+                "imageURL": "https://github.com/Maicarons2022.png",
+                "key": "Maica"
+              }
+            ],
+            "frontMatter": {
+              "slug": "something-to-say1",
+              "title": "一点要说的东西1",
+              "authors": "Maica",
+              "tags": [
+                "hello"
+              ]
+            },
+            "nextItem": {
+              "title": "Test Server",
+              "permalink": "/blog/test"
+            }
+          },
+          "content": "> 天很蓝，阴云终要散。海不宽，此岸连彼岸。梦很浅，万物皆自然。\r\n\r\n大家好，又到了新春时节。\r\n\r\n这个春天，我们把三年的疫情终于抛到了脑后，\r\n我们更加珍惜现在的时光，珍惜每一个平静的晨午和夕阳。\r\n\r\n从1月19日项目立项以来，到元宵后我到北京集中学习，这段时间有很多朋友陪伴，每个人都为这个项目打下理论基础和科学构想。  \r\n每个人的工作都无可替代，每个人创造的价值都很重要。  \r\n\r\n这段时间，我对青开大项目的设计并未停止。  \r\n青开大项目最初也并非我个人的头脑一热，而是多年的积淀，明确的目标和大量的调研的结晶。没有一个项目是一日建成的，没有一个开源团队是一蹴而就组建的。正如2023年新年贺词中所言，\"中国这么大，不同人会有不同诉求，对同一件事也会有不同看法，这很正常，要通过沟通协商凝聚共识。\"一个良好的团队，需要经得起时间的检验，需要经历合作中的磨合。我们的团队要想有默契，就必须团结，必须心往一处想，劲往一处使。当然，在休眠期间，只希望大家不要忘记这个项目，我们6月重启。  \r\n\r\n下面简述一下6月布局的设想，仅为一己之言。\r\n\r\n## 1. 团队设置\r\n1. 青开大最高的机构-青开大委员会，负责青开大项目的决策。由开发团队代表，运营团队代表，用户(学生)代表组成。  \r\n2. 开发团队。开发团队由前端团队和后端团队组成，分别有2位负责人负责(共四人)。\r\n3. 运营团队。运营团队下设社区运营团队，课程运营团队，教室运营团队，开源项目运营团队，内容管理团队，分别1位负责人负责(共四人)。分管的具体内容见下文。\r\n4. 学生会。类似用户代表反馈互动机制，具体职能待定。\r\n\r\n## 2. 项目设计\r\n1. #### 社区 \r\n    社区是青开大项目的核心，是所有项目内容的集散地。社区要提供学生交流/合作/互相学习的环境。  \r\n    我们可以通过设置不同专栏(类似不同学科)，方便学生交流，课程发布，项目推送等功能。可以类比带专栏的蓝鸟。  \r\n    由社区运营团队负责。\r\n\r\n2. #### 课程\r\n    课程要与教室绑定，每个课程对应一个公开教室。课程可以通过团队创作，邀请up主等方式提供内容。目前视频内容直接接入b站，既避免托管视频的巨额消费，也方便我们审核。视频课程目前我已经邀请了几位教程up，将会提供第一批教程。  \r\n    教程分为大课和小课，学习方式分为主修，辅修，旁听。  \r\n    选择主修可以进入本课程的公开教室，并要求在一段时间内完成相应测验和考试，教师或管理团队会跟踪学生的学习过程，相应的，会获得最多的学分。  \r\n    辅修同样可以进入教室，但考试成绩及格即可，要求较松，获得的学分也较少。  \r\n    旁听不会有任何限制，当然也没有学分。  \r\n    由课程运营团队负责。\r\n\r\n3. #### 教室\r\n    教室分为公开教室和高级教室。高级教室是目前我唯一能想到的较为容易实现商业化运作的功能，具体构想暂时保密。公开教室与课程绑定，学生可以在教室中相互讨论，或与教师讨论，分享学习成果，教师能够及时答疑，保证教学质量。  \r\n    由教室运营团队负责。\r\n\r\n4. #### 开源\r\n    开源分为开源团队和开源项目功能。开源团队即青开大宗旨中\"合作\"的体现。通过学习课程或社区交流，引导学生组建团队，并通过开源项目功能提供内容展示，推广宣传等功能，为新生团队铺平道路。界面功能可以参考npm，但绝不是仅仅做个展示界面，还有很多绝对独创的服务。  \r\n    由开源项目运营团队负责。\r\n\r\n## 3. 一些原则\r\n\r\n1. 无性别差异。我们倡导开源界的性别平等。青开大项目不会收集任何关于性别，性取向等内容，同时，在社区中也不得讨论或揭露学生此类内容。\r\n\r\n2. 无年龄差异。青开大项目不会收集任何关于年龄内容。我们认为，只要精神不落后，人生时刻是青年。任何年龄都有公平使用网络，公平创作项目，公平参与开源，公平学习和分享知识的权利。同时，在社区中也不得讨论或揭露学生此类内容。\r\n\r\n3. 中立和正确原则。\r\n\r\n4. 用户隐私合法服务原则。依据《中华人民共和国网络安全法》《信息安全等级保护管理办法》《公安机关互联网安全监督检查规定》等有关法律规定，我们的服务目前无法达到储存和处理中华人民共和国公民的个人信息的信息安全等级。因此我们不会收集任何法律规定内的个人隐私信息。\r\n\r\n5. 责任制原则。青开大项目在各组织内实行责任制。\r\n\r\n## 4. 关于委员会\r\n青开大委员会是青开大的决策机构。由一位负责人负责。委员会负责审议并表决相关议题，任免各团队负责人，组织召开大会，决定项目的运行等职能。\r\n\r\n## 5. 关于商业化\r\n下一次something-to-say2再聊。\r\n\r\n## 6. 关于内容管理团队\r\n\r\n内容管理团队负责对外宣传，社交平台官方账号运营，优质内容筛选，原创内容创作，是青开大内容输出的负责部门。\r\n\r\n## 7. 关于使用技术\r\n\r\n前端水合负责，我就不插手了。  \r\n后端的话，我还是倾向go-zero，然后做前后端的完全分离。\r\n\r\n## 8. 关于服务器\r\n下一次something-to-say2再聊。\r\n\r\n## 结语\r\n首先这些构想是完全没有经过实践的。因此在6月重启后可能会大改，如果有过分的地方也不要当真，请尽情提出意见和建议。\r\n我现在在北京集中学习，平时可以使用网络，但不能上社交平台，所以没法和各位在QQ聊，但是大家可以通过我的邮箱(maicarons#outlook.com)和我交流。\r\n\r\n这里还要道个歉，因为之前请的作曲老师莫名联系不上了，所以自己临时写了一个，借用了欢乐颂的谱(:\r\n\r\n\r\n\r\n最后，祝愿大家，万事如意，不忘初心!"
+        },
+        {
+          "id": "test",
+          "metadata": {
+            "permalink": "/blog/test",
+            "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2023-03-04-test-server/index.md",
+            "source": "@site/blog/2023-03-04-test-server/index.md",
+            "title": "Test Server",
+            "description": "链接在这里",
+            "date": "2023-03-04T00:00:00.000Z",
+            "formattedDate": "2023年3月4日",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              }
+            ],
+            "readingTime": 0.03,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Maicarons",
+                "title": "A YOSVU Student",
+                "url": "https://github.com/Maicarons2022",
+                "imageURL": "https://github.com/Maicarons2022.png",
+                "key": "Maica"
+              }
+            ],
+            "frontMatter": {
+              "slug": "test",
+              "title": "Test Server",
+              "authors": [
+                "Maica"
+              ],
+              "tags": [
+                "hello"
+              ]
+            },
+            "prevItem": {
+              "title": "一点要说的东西1",
+              "permalink": "/blog/something-to-say1"
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "链接在这里\r\nhttps://yosvu.eu.org/Testserver/"
+        },
+        {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+            "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -386,18 +630,22 @@
                 "docusaurus"
               ]
             },
+            "prevItem": {
+              "title": "Test Server",
+              "permalink": "/blog/test"
+            },
             "nextItem": {
               "title": "MDX Blog Post",
               "permalink": "/blog/mdx-blog-post"
             }
           },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
         },
         {
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+            "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -439,13 +687,13 @@
               "permalink": "/blog/long-blog-post"
             }
           },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
         },
         {
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+            "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -490,13 +738,13 @@
               "permalink": "/blog/first-blog-post"
             }
           },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
         },
         {
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+            "editUrl": "https://github.com/YOSVU/docs/tree/main/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
@@ -549,6 +797,8 @@
       "blogListPaginated": [
         {
           "items": [
+            "something-to-say1",
+            "test",
             "welcome",
             "mdx-blog-post",
             "long-blog-post",
@@ -559,13 +809,42 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 6,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "something-to-say1",
+            "test",
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "something-to-say1",
+                "test",
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/facebook": {
           "label": "facebook",
           "items": [
@@ -583,31 +862,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/hello": {
-          "label": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "long-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -675,7 +929,7 @@
       {
         "type": "jsx",
         "permalink": "/",
-        "source": "@site/src/pages/index.js"
+        "source": "@site/src/pages/index.jsx"
       },
       {
         "type": "mdx",
@@ -691,10 +945,18 @@
         "type": "jsx",
         "permalink": "/my-react-page",
         "source": "@site/src/pages/my-react-page.jsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/testserver",
+        "source": "@site/src/pages/testserver.jsx"
       }
     ]
   },
+  "docusaurus-plugin-google-analytics": {},
   "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
+  "docusaurus-plugin-google-tag-manager": {},
   "docusaurus-theme-classic": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}

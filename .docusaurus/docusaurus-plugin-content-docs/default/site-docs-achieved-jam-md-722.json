@@ -1,0 +1,24 @@
+{
+  "unversionedId": "achieved/jam",
+  "id": "achieved/jam",
+  "title": "jam",
+  "description": "Ebitengine 游戏开发者大赛是由 Ebitengine 社区组织的为期两周的活动，从2023年6月15日开始，任何人都可以通过构建基于秘密主题的游戏来展示您的 Ebitengine 游戏。",
+  "source": "@site/docs/achieved/jam.md",
+  "sourceDirName": "achieved",
+  "slug": "/achieved/jam",
+  "permalink": "/docs/achieved/jam",
+  "draft": false,
+  "editUrl": "https://github.com/YOSVU/docs/tree/main/docs/achieved/jam.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "一点要说的东西1",
+    "permalink": "/docs/achieved/something-to-say1"
+  },
+  "next": {
+    "title": "Semantic Versioning 2.0.0",
+    "permalink": "/docs/reference/semver"
+  }
+}

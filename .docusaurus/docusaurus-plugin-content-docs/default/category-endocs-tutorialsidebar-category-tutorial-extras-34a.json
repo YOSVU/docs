@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/en/docs/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "Release 发布规范",
+      "permalink": "/en/docs/Github/realease"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/en/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}
